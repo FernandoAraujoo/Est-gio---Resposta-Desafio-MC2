@@ -30,3 +30,6 @@ Bootstrap
 MySQL
 
  
+http://localhost/phpmyadmin  http://localhost/phpmyadmin u: root s:embranco)
+http://localhost/login
+wamp: config/apache/httpd/v-host.conf-> <Directory "${INSTALL_DIR}/www/agenda-desafio/">
