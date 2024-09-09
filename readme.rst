@@ -1,16 +1,13 @@
-# Estagio---Resposta-Desafio-MC2
-Agenda eletrônica em PHP
 
 Crie uma agenda eletrônica contendo: usuários e atividades.
 
- O usuário deverá conter:
+O usuário deverá conter:
 id
 login
 senha
 
 Cada usuário poderá criar N atividades e só enxergará suas próprias atividades.
 
- 
 A atividade deverá conter:
 id
 nome
@@ -26,8 +23,10 @@ Tela para cadastro e login de usuário.
 CRUD (Create, Read, Update e Delete) de atividades.
 Exibição de atividades em um calendário (é permitido o uso de bibliotecas).
 
-Tecnologias recomendadas:
+ Tecnologias recomendadas:
 PHP (Codeigniter ou CakePHP)
 Jquery
 Bootstrap
 MySQL
+
+ 
