@@ -1,9 +1,9 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #7b7c7e;
+    background-color: #adc1eb;
 }
 .login-container {
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(14, 13, 13, 0.9);
     position: absolute;
     top: 50%;
     left: 50%;
@@ -23,7 +23,7 @@ body {
     margin-bottom: 15px;
 }
 .login-container button {
-    background-color: dodgerblue;
+    background-color: #4a7eee;
     border: none;
     padding: 10px;
     width: 70%;
@@ -33,7 +33,7 @@ body {
     margin-bottom: 10px;
 }
 .login-container button:hover {
-    background-color: deepskyblue;
+    background-color: #4a7eee;
     cursor: pointer;
 }
 .login-container a {

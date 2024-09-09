@@ -1,6 +1,6 @@
 <?php
 include('header.php');
-?>
+?>	
 <li class="nav-item">
     <a class="nav-link active" href="<?php echo base_url('login') ?>">Login</a>
 </li>
@@ -29,3 +29,6 @@ include('header.php');
 <?php
 include('footer.php')
 ?>
+
+
+

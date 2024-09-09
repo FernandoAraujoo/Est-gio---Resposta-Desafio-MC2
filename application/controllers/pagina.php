@@ -22,7 +22,7 @@ class Pagina extends CI_Controller
     public function login()
     {
         $dados['titulo'] = "Página de login";
-        $this->load->view('login', $dados);
+       
 
         if ($this->input->server('REQUEST_METHOD') === 'POST') {
             $login = $this->input->post('login');
@@ -34,9 +34,10 @@ class Pagina extends CI_Controller
                 redirect('pagina/atividades');
             } else {
                 $dados['error'] = "Usuário ou senha incorretos.";
-                $this->load->view('login', $dados);
+        
             }
         }
+        $this->load->view('login', $dados);
     }
 
     public function cadastrar()
@@ -61,7 +62,7 @@ class Pagina extends CI_Controller
                     $dados['error'] = "Erro ao cadastrar usuário.";
                 }
             }
-            $this->load->view('cadastrar', $dados);
+            
         }
     }
 
